@@ -7,7 +7,7 @@ var inquirer = require("inquirer");
 inquirer
   .prompt([
     {
-      type: "checkbox",
+      type: "list",
       name: "cardType",
       message: "What type of card do you want to create??",
       choices: ["BasicCard", "ClozeCard"]
