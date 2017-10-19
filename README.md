@@ -1,4 +1,4 @@
-Flashcard Generator
+## Flashcard Generator
 
 This application has 2 functions. 
 
@@ -8,4 +8,15 @@ The second is a cloze flash card simulator. This simulator uses a full sentence,
 
 If the type of card is not specified in the console request, the user is prompted to enter either BasicCard or ClozeCard to continue with the application.
 
-This application uses Node.js, and a JavaScript timeout function.
+
+## Built With
+
+* Inquirer
+* JavaScript
+* Node.js
+
+
+## Installing
+
+npm install
+
